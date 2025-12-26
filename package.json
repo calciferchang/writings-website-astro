@@ -11,10 +11,15 @@
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/react": "^4.4.2",
+    "@p5-wrapper/react": "^5.0.2",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "astro": "^5.16.6",
+    "p5": "^2.1.2",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/p5": "^1.7.7"
   }
 }

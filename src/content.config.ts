@@ -9,7 +9,7 @@ const essays = defineCollection({
   loader: glob({ pattern: "**/[^_]*.{mdx,md}", base: "./content/essays" }),
   schema: z.object({
     title: z.string(),
-    description: z.string(),
+    description: z.string().optional(),
   }),
 });
 // Export a single `collections` object to register your collection(s)
